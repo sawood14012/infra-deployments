@@ -69,6 +69,10 @@ spec:
           args:
             - "--port=8000"
           securityContext:
+            runAsNonRoot: true
+            allowPrivilegeEscalation: false
+            seccompProfile:
+              type: RuntimeDefault
             capabilities:
               drop:
                 - ALL
