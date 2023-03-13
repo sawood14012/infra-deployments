@@ -8,4 +8,4 @@ kind: Kustomization
 images:
   - name: quay.io/redhat-appstudio/quality-dashboard-backend
     newName: quay.io/redhat-appstudio/quality-dashboard-backend
-    newTag: 62d693e2f57a4c3394a842966f51e646691b28df
+    newTag: 1f3a292f8e11f72b9be434bfaf6a713c8b5b7fff
